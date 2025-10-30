@@ -8,6 +8,12 @@ Le modèle relie des variables environnementales (température, humidité, polle
 Ce dépôt regroupe l’ensemble du pipeline : **préparation, contrôle qualité, entraînement et inférence**.  
 Le projet illustre une démarche de co‑développement IA/humain, combinant rigueur scientifique et expérimentation cognitive appliquée.
 
+> 🔄 **Origine du projet :**
+> Ce dépôt est une réécriture complète (« from scratch ») du projet [Lyra Air Santé (GPT-3.5)](https://github.com/Jerome-openclassroom/lyra-air-sante).  
+> Cette nouvelle version repose sur le modèle **Mistral 7B**, un modèle **français, ultra-léger et open-source**, en remplacement de GPT-3.5 (175 milliards de paramètres).  
+> Malgré sa taille bien plus réduite, **le résultat est comparable, voire supérieur**, démontrant l’efficacité des architectures modernes.
+
+
 ---
 
 ## 📂 Arborescence du dépôt
