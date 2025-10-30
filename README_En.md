@@ -1,5 +1,11 @@
 # 🌍 Lyra Air Santé – Environmental and Health AI Model
 
+[![Model: Mistral 7B QLoRA](https://img.shields.io/badge/Model-Mistral%207B%20QLoRA-blue?style=for-the-badge&logo=mistral&logoColor=white)](https://mistral.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Lyra__Air__Sante-orange?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/jeromex1/lyra_air_sante_mistral7B_qLoRA)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-yellow?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+
+
 ## 🧠 Overview
 
 **Lyra Air Santé** is a fine-tuned **Mistral 7B QLoRA (4-bit)** model designed to analyze the relationship between **weather conditions, air quality, and human health**.  
