@@ -77,6 +77,15 @@ En résumé, la démarche comprend deux grandes phases :
 
 **Conclusion :** le dataset est **robuste, équilibré et cohérent**, prêt pour le fine‑tuning SFT QLoRA.
 
+## 📊 Résultats statistiques du dataset
+
+Le graphique ci-dessous présente la distribution des profils environnementaux utilisés pour l’entraînement :  
+
+![Statistiques du dataset](https://github.com/Jerome-openclassroom/Mistral_7B_AirQuality_LoRA/blob/main/statistics/statistiques.png)
+
+> ✅ La répartition des scénarios est homogène, sans biais dominant.  
+> Ce résultat garantit un apprentissage équilibré du modèle.
+
 ---
 
 ## ⚙️ Entraînement du modèle
@@ -89,6 +98,11 @@ Script principal : `code/train_7b_air_quality.py`
 - Durée moyenne : ≈ 10 minutes pour convergence complète.  
 
 Sorties : modèle fine‑tuné prêt à être publié sur Hugging Face, avec cohérence et stabilité testées.
+
+
+📊 **Métriques et apprentissage :**
+Les courbes d’entraînement, les hyperparamètres et les évaluations détaillées sont disponibles sur la page Hugging Face du modèle :  
+👉 [https://huggingface.co/jeromex1/lyra_air_sante_mistral7B_qLoRA](https://huggingface.co/jeromex1/lyra_air_sante_mistral7B_qLoRA)
 
 ---
 
