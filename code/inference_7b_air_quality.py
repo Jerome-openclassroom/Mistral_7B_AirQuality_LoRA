@@ -12,13 +12,6 @@ from google.colab import userdata
 from huggingface_hub import login
 import os
 
-hf_token = userdata.get('TOKEN_HF_AirSante')
-if not hf_token:
-    raise ValueError("❌ Le secret 'TOKEN_HF_AirSante' est introuvable ou vide. Vérifie tes secrets Colab.")
-
-os.environ["HF_TOKEN"] = hf_token
-login(token=os.environ["HF_TOKEN"])
-print("🔐 Authentification Hugging Face réussie.")
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
